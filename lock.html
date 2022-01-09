@@ -1,0 +1,15 @@
+<script>
+     
+    var lock="xyzclinic";
+    password=prompt('Enter password to view appointments...');
+    if(password==lock){
+        alert('correct, click ok to enter.');
+        
+        window.location.href="http://localhost/cwh/display.php";
+    }
+    else{
+        alert('please enter correct password....');
+        window.location.href="http://localhost/cwh/home.html";
+    }
+    
+</script>

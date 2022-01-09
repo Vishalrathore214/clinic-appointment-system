@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(6, 226, 255);
+}
+.container {
+    max-width: 50%;
+    background-color: greenyellow;
+    padding: 30px;
+    margin: auto;
+}
+.container h1, p{
+    text-align: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+#Name,#phone,#emailAddress,#age,#date,#submit,textarea,select{
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    border: 2px solid;
+}
+fieldset{
+    padding-inline: 10px;
+    color: black;
+    border-color: black;
+}
+#submit{
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+}
